@@ -1,0 +1,30 @@
+.header_section{
+    display: flex;
+    justify-content: center;
+}
+.header_tile{
+    background-color: #D6EAF8;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 14px;
+    border-radius: 10px;
+    margin: 20px;
+    border: 1px solid black;  
+    cursor: pointer;
+}
+.Person_details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    order: 1; /* Name will be at the beginning */
+}
+
+.post {
+    order: 2; /* Posts will be at the end */
+}
+.scrollable-container {
+    height: 500px; /* Set a fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+}

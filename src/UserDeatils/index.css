@@ -1,0 +1,98 @@
+.button-container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust the margin based on your design preferences */
+  }
+  
+  .button-group {
+    display: flex;
+  }
+  
+  .Back_button {
+    /* Add your button styles here */
+    padding: 10px;
+    background-color: #D6EAF8;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .Back_button:not(:last-child) {
+    margin-right: 30px; /* Adjust the margin based on your design preferences */
+  }
+
+.user-details-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;    
+    background-color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 2.5rem;
+    border-radius: 10px;
+    margin: 20px;
+    /* border: 1px solid black;   */
+    cursor: pointer;
+  }
+  
+  .user-info-start {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-info-end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .cards-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 50px;
+  }
+  @media (max-width: 600px) {
+    .cards-container, .user-details-container {
+      flex-direction: column;
+    }
+    .card {
+        width: 96% !important;
+        margin: 10px 0;
+    }
+    .user-info-end {
+        display: inline-block;
+    }
+    .button-container {
+        display: block;
+    }
+  }
+  .card {
+    width: 200px; /* Set the height to 150px */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .card-content {
+    color: #555;
+  }
+  .Dropdown{
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #D6EAF8;
+    border: none;
+  }

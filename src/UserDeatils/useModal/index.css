@@ -1,0 +1,66 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    
+    z-index: 1001;
+    width: 600px;
+  height: 500px;
+  position: relative;
+  }
+  
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .close-button {
+    position: absolute;
+    top:488px;  
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .id_select{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+    padding: 28px;
+
+  }
+  .title_select{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+    padding: 58px;
+    flex-wrap: wrap; 
+  }
+  .body_select{
+    position: relative;
+    top: 80px;
+  }
