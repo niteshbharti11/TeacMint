@@ -65,10 +65,6 @@ const Index = () => {
     setSelectedTimezone(event.target.value);
   };
 
-  const timeStop = () => {
-    // Implement the logic for time stop
-  };
-
   const openModal = (post) => {
     setSelectedPost(post);
     setIsModalOpen(true);

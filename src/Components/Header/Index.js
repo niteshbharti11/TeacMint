@@ -21,7 +21,7 @@ const Index = () => {
   }, []);
 
   const handleHeaderClick = (clickedUser) => {
-    // Navigate to the '/About' route and pass the clicked user data
+    
     navigate('/About', { state: { userData: clickedUser } });
   };
 
